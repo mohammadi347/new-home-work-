@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact US</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #F3ECDC ;
+      color: #333;
+    }
+    nav {
+      background-color:#E6D3B1;
+      padding: 10px;
+    }
+   nav a {
+      color:#8B6F4E;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    h1 {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about_me.html">About Me</a>
+    <a href="contact.html">Contact Me</a>
+    <a href="glallery.html">Gallery</a>
+  </nav>
+</head>
+<body>
+    <h1>Contact Me </h1>
+  <form action="success.html" method="post">
+  
+    <fieldset>
+      <legend> Personal information </legend>
+      <label> Name</label><br>
+      <input type="text" placeholder=" Enter your Name">
+      <br>
+      <label> Last Name </label><br> 
+      <input type="text" placeholder="Enter Your Last Name"> <br><br>
+      <label> Gender:</label><br>
+      <label> Female:</label>
+      <input type="radio"Name="Gender" id="Female" ><br>
+      <label> Male:</label>
+      <input type="radio"Name="Gender" id="Male"><br>
+      <label> I rather not to say</label>
+      <input type="radio"Name="Gender" id="not to say"><br>
+      <br>
+      <label>language </label><br>
+      <select>
+        <option value="Dari">Dari</option>
+        <option value="Pashto">Pashto</option>
+        <option value="English"> English</option>
+      </select><br><br>
+    </fieldset>
+
+      <fieldset>
+        <legend> Education</legend>
+        <label>Education </label><br>
+          <select>
+            <option value="Bachelor degree">Bachelor degree </option>
+            <option value="school">school</option>
+          </select><br><br
+          <label> massage</label><br>
+          <textarea name="massage"id=message>
+      
+          </textarea><br><br>
+          <input type="submit">
+      </fieldset>
+
+        
+</body>
+</html>
